@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+
+    --cor-braco: #F2FDFF;
+    --cor-azul: #101935;
+    --cor-cosa: #B79FDB;
+    --cor-roxoAzulado: #8690DA;
+    --cor-roxo: #564787;
+
+    --borda: 2px solid var(--cor-roxo);
+    --borda-arredondamento: 2px;
+
+    --tamanho-fonte-lg: 30px;
+    --tamanho-fonte-lm: 20px;
+    --tamanho-fonte-ls: 15px;
+
+}
+
+/* SELETOR GLOBAL */
+
+* {
+
+    font-family: "Sour Gummy", sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: var(--cor-braco);
+
+}
+
+h1 {
+
+    position: absolute;
+    z-index: -1;
+    /*camadas do elemento*/
+    opacity: 0%;
+
+}
+
+/*formulario*/
+
+input {
+
+    width: 100%;
+    height: 35px;
+    border: var(--borda);
+    background-color: #f0f0f0;
+
+}
