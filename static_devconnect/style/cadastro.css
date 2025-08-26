@@ -8,10 +8,10 @@ main {
     justify-content: center;
     align-items: center;
 
+
 }
 
 main>div {
-
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -25,20 +25,10 @@ main>div {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     padding: 2%;
     gap: 10px;
-
-}
-
-#formulario>div>label {
-
-    font-size: var(--tamanho-fonte-sm);
-    opacity: 60%;
-    font-weight: 300;
-    padding-bottom: 4px;
-
+    text-align: center;
 }
 
 #cadastro {
@@ -78,48 +68,28 @@ main>div {
 
 }
 
-#secao-aplicativo {
+input{
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+    margin-bottom: 10px ;
 
 }
 
-#secao-aplicativo img {
-
-    width: 150px;
-    height: 50px;
-    cursor: pointer;
-
-}
-
-form div {
-
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-
-}
-
-#formulario .botao-roxo {
+.botao-roxo {
 
     width: 100%;
 
 }
 
-#formulario p {
+#botao-file {
 
-    text-transform: uppercase;
-    opacity: 60%;
-    font-size: var(--tamanho-fonte-sm);
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.file{
+
+    display: none;
 
 }
 
-#formulario a {
-
-    text-decoration: none;
-    color: var(--cor-roxo);
-
-}
