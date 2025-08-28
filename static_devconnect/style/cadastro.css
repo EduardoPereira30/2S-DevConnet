@@ -62,15 +62,15 @@ main>div {
     width: 100%;
     max-width: 340px;
     border: var(--borda);
-    background-color: var(--cor-braco);
+    background-color: var(--cor-branco);
     margin: 5px;
     border-radius: 2px;
 
 }
 
-input{
+input {
 
-    margin-bottom: 10px ;
+    margin-bottom: 10px;
 
 }
 
@@ -84,12 +84,6 @@ input{
 
     width: 100%;
     margin-bottom: 20px;
-
-}
-
-.file{
-
-    display: none;
 
 }
 

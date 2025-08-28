@@ -69,12 +69,8 @@ main>div {
 
 .estilo-formulario {
 
-    width: 100%;
     max-width: 340px;
-    border: var(--borda);
-    background-color: var(--cor-braco);
-    margin: 5px;
-    border-radius: 2px;
+
 
 }
 
