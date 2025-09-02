@@ -2,8 +2,8 @@ main {
 
     height: 100%;
     min-height: 100vh;
-    background-color: var(--cor-roxoAzulado);
-
+    background-color: var(--cor-roxo);
+    background-image: linear-gradient(var(--cor-roxo), var(--cor-roxoAzulado));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,3 +87,8 @@ input {
 
 }
 
+.botao-azul{
+
+    width: 100%;
+
+}
