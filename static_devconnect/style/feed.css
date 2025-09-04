@@ -1,5 +1,5 @@
 main {
-    /* min-height: 100vh; */
+    min-height: 100vh;
     width: 100%;
     padding-top: 10px;
     background-color: var(--cor-roxo);
@@ -60,7 +60,7 @@ main {
     height: 80px;
     object-fit: cover;
     object-position: center;
-    border: var(--borda);
+    border: var(--borda)
 
 }
 
@@ -175,7 +175,6 @@ main {
     font-weight: 500;
     order: 2;
     margin: 0px 3%;
-    flex-wrap: wrap;
 }
 
 .descricao-publicacao>p {
@@ -200,7 +199,7 @@ main {
 
 }
 
-.acoes-publicacao >button {
+.acoes-publicacao button {
 
     border: none;
     background-color: transparent;

@@ -162,7 +162,8 @@ input {
     object-fit: cover;
 
     /* redimenciona a imagem */
-    border-radius: 50%;
+    border-radius: 100%;
+    border: var(--borda);
 
 }
 

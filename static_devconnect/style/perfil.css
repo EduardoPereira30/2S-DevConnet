@@ -1,0 +1,181 @@
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--cor-roxo);
+    background-image: linear-gradient(var(--cor-roxo), var(--cor-roxoAzulado));
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.container-flex-publi{
+    width: 90%;
+    max-width: 850px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#perfil{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+#perfil > a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-transform: uppercase;
+    gap: 5px;
+}
+
+#informacoes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 2px solid var(--cor-roxoEscuro);
+    flex-wrap: wrap;
+}
+
+#secao-perfil{
+    display: flex;
+    gap: 40px;
+}
+
+#informacoes-perfil{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+#informacoes-perfil > span{
+    font-size: var(--tamanho-fonte-lg);
+    font-weight: 800;
+}
+
+#publicacoes-seguindo-seguidores{
+    display: flex;
+    gap: 30px;
+}
+
+#publicacoes-seguindo-seguidores > a{
+    text-decoration: none;
+    color: var(--cor-azul);
+}
+
+#editar-perfil-sair{
+    display: flex;
+    gap: 33px;
+}
+
+#editar-perfil-sair > a{
+    text-decoration: none;
+    color: var(--cor-roxoEscuro);
+    padding-right: 19px;
+}
+
+#editar-perfil-sair > span{
+    font-size: var(--tamanho-fonte-sm);
+    font-weight: 600;
+}
+
+#foto-perfil-2{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card-publi{
+    padding-bottom: 15px;
+    border-radius: var(--borda-arredondamento);
+
+}
+
+.card-publi > header{
+    display: flex;
+    align-items: center;
+    height: 75px;
+    padding: 2%;
+}
+
+.card-publi > header > a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    text-decoration: none;
+}
+
+.card-publi > header > a > span{
+    color: var(--cor-azul);
+    font-size: var(--tamanho-fonte-lg);
+    font-weight: 700;
+}
+
+.card-publi > figure{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+.foto-publi{
+    height: 455px;
+    object-fit: cover;
+}
+
+.descricao-publi{
+    display: flex;
+    order: 3;
+    padding-left: 20px;
+    gap: 20px;
+    font-weight: 700;
+}
+
+.descricao-publi > p{
+    font-weight: 300;
+}
+
+.interacoes-publi{
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 20px;
+    order: 2;
+    gap: 5px;
+
+}
+
+.interacoes-publi > button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.interacoes-publi> span{
+    font-size: var(--tamanho-fonte-ms);
+    font-weight: 500;
+    color: var(--cor-azul);
+}
+
+#ver-comentarios{
+    margin-left: 20px;
+    border: none;
+    background-color: transparent;
+    color: var(--cor-roxoEscuro);
+    font-size: var(--tamanho-fonte-ls);
+    cursor: pointer;
+    text-decoration: underline;
+}
